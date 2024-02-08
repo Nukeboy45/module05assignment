@@ -7,6 +7,7 @@
             <a href="home.html"<button class="nav-button">Home</button></a>
             <a href="about.html"<button class="nav-button">About</button></a>
         </div>
+        <script src="scripts.js" defer></script>
     </head>
 
     <body>
@@ -20,10 +21,38 @@
             excepturi quaerat harum amet reiciendis dolorum doloribus distinctio nulla praesentium 
             tempora exercitationem vero a! Repudiandae laborum assumenda saepe perferendis eos. 
             Dicta, doloremque consequatur.</p>
+            <div id="listButtons" class="list-bar">
+                <button class="list-button" onclick="displayList('list1')">List1</button>
+                <button class="list-button" onclick="displayList('list2')">List2</button>
+                <button class="list-button" onclick="displayList('list3')">List3</button>
+            </div>
 
+            <div id="list1" class="hidden-lists">
+                <ul>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, eum.</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, repellendus?</li>
+                  <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, obcaecati.</li>
+                </ul>
+              </div>
+            
+              <div id="list2" class="hidden-lists">
+                <ul>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, magnam.</li>
+                  <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, voluptate?</li>
+                  <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, fuga?</li>
+                </ul>
+              </div>
+            
+              <div id="list3" class="hidden-lists">
+                <ul>
+                  <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae, distinctio!</li>
+                  <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, debitis.</li>
+                  <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, reprehenderit.</li>
+                </ul>
+              </div>
     </body>
 
     <footer>
-        <div class="footer"><h4>Copyright Nathan Weisskopf</h4></div>
+        <div class="footer"><h4>© Nathan Weisskopf</h4></div>
     </footer>
 </htmL>
