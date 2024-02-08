@@ -19,13 +19,25 @@
 
 .nav-bar {
     background-color: gray;
-    padding: 10;
+    padding: 16;
     text-align: center;
+}
+
+.auto-img {
+    width: 100%;
+    height: auto;
+}
+
+.text-center {
+    text-align: center;
+    padding-left: 30;
+    padding-right: 30;
 }
 
 .nav-button {
     margin-left: 10;
     margin-right: 10;
+    font-weight: bold;
     padding: 6 12;
     background-color: 3c403d;
     border: none;
