@@ -1,0 +1,50 @@
+
+.header {
+    background-color: 3C383C;
+    color: FFFFFF;
+    padding: 1;
+    font-size: 24;
+    font-style: bold;
+    padding-left: 30;
+}
+
+.footer {
+    background-color: 3C383C;
+    color: FFFFFF;
+    padding: 1;
+    font-size: 12;
+    font-style: bold;
+    padding-left: 30;
+}
+
+.nav-bar {
+    background-color: gray;
+    padding: 10;
+    text-align: center;
+}
+
+.nav-button {
+    margin-left: 10;
+    margin-right: 10;
+    padding: 6 12;
+    background-color: 3c403d;
+    border: none;
+    color: white;
+    transition-duration: 0.4s;
+    font-size: 24;
+    border-radius: 6px;
+}
+
+.nav-button:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+head {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
