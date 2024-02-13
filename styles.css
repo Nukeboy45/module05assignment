@@ -53,6 +53,8 @@
 
 .list-bar {
     text-align: center;
+    margin-top: 10;
+    margin-bottom: 10;
     padding-bottom: 120;
 }
 
@@ -79,6 +81,10 @@
     padding-bottom: 40;
 }
 
+.form-div {
+    padding-left: 40;
+    padding-right: 40;
+}
 
 head {
     margin: 0;
